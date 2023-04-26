@@ -23,9 +23,13 @@
   class="tooltip"
   style="position:absolute; top:{yPosition}px; left:{xPosition}px"
 >
-  <p>state {data.State}</p>
-  <p>participation Rate {data[2023]}</p>
-  <p>Region {data.Zones}</p>
+  <p>State: <span class="tooltip-text"> {data.State}</span></p>
+  <p>
+    Participation Rate: <span class="tooltip-text">
+      {Math.floor(data[2023] * 100)}%
+    </span>
+  </p>
+  <p>Region: <span class="tooltip-text"> {data.Zones} </span></p>
 </div>
 
 <style>
@@ -38,10 +42,20 @@
 
   .tooltip p {
     padding: 0.15rem;
-    margin: 0px;
-    font-family: Helvetica Arial;
+    font-family: "Lato";
+    margin: 1.2px;
     font-size: 14px;
     font-weight: 400;
     color: #808080;
+  }
+
+  .tooltip-text {
+    padding-right: 0.5rem;
+    margin: 0px;
+    font-family: "Lato";
+    font-size: 14px;
+    font-weight: 800;
+    color: #3d3d3d;
+    display: inline-block;
   }
 </style>

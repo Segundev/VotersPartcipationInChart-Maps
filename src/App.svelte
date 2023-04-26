@@ -92,10 +92,15 @@
             The number of voters who participate in an election has a
             significant impact on the outcome. Several media outlets projected
             the outcome of the election on the basis of a large turnout.
-            However, only 24.9 million voted out of 93.47 million registered
-            voters. In simpler words, approximately only 3 out of 10 registered
-            voters were able to cast their vote. This compared to 7 out of 10 in
-            2003.
+            However, only <span class="text-inline" style="background:#35751E">
+              24.9 million
+            </span>
+            voted out of
+            <span class="text-inline" style="background:#033160">
+              93.47 million
+            </span> registered voters. In simpler words, approximately only 3 out
+            of 10 registered voters were able to cast their vote. This compared to
+            7 out of 10 in 2003.
           </p>
         </div>
       </section>
@@ -108,6 +113,24 @@
         </div>
       </section>
       <section>
+        <div class="component-paragraph">
+          <p>
+            <span class="number-inline">1</span>
+            <strong>
+              Voter turnout in the
+              <span class="text-inline" style="background:#35751E">2023</span>
+              presidential and national assembly elections was the lowest ever recorded
+              since democracy was established in 1999</strong
+            >. The participation rate recorded was
+            <span class="text-inline" style="background:#E05E00">
+              26.74%
+            </span>, implying that barely 3 out of every 10 registered voters
+            exercised their voting rights on election day by casting their
+            votes. Between 1999 and 2011, voter participation on average was
+            greater than 50%, with more than 5 out of 10 registered voters eager
+            to cast their votes.
+          </p>
+        </div>
         <div class="datawrapper-component">
           <iframe
             title=""
@@ -121,21 +144,24 @@
             data-external="1"
           />
         </div>
-        <div class="component-paragraph">
-          <p>
-            Voter turnout in the 2023 presidential and national assembly
-            elections was the lowest ever recorded since democracy was
-            established in 1999. The participation rate recorded was 26.74%,
-            implying that barely 3 out of every 10 registered voters exercised
-            their voting rights on election day by casting their votes. Between
-            1999 and 2011, voter participation on average was greater than 50%,
-            with more than 5 out of 10 registered voters eager to cast their
-            votes.
-          </p>
-        </div>
       </section>
 
       <section>
+        <div class="component-paragraph">
+          <p>
+            <span class="number-inline">2</span>
+            <strong> Voter turnout has been declining since 2007.</strong> Even though
+            the number of registered voters has increased throughout the years, participation
+            rate has been declining. The 2023 election surprised many Nigerians,
+            who expected a huge voter participation due to the country's economic
+            woes prior to the election. In addition, 40% of registered voters were
+            between the ages of 18 and 34. These figures were expected to have an
+            impact on election day, as witnessed during the Endsars protest in 2020,
+            when youths took to the streets to demand the disbandment of the popular
+            police unit, the Special Anti-Robbery Squad, owing to incidents of extrajudicial
+            executions, extortion, and intimidation.
+          </p>
+        </div>
         <div class="datawrapper-component">
           <iframe
             title=""
@@ -149,29 +175,26 @@
             data-external="1"
           />
         </div>
-        <div class="component-paragraph">
-          <p>
-            Voter turnout has been declining since 2007. Even though the number
-            of registered voters has increased throughout the years,
-            participation rate has been declining. The 2023 election surprised
-            many Nigerians, who expected a huge voter participation due to the
-            country's economic woes prior to the election. In addition, 40% of
-            registered voters were between the ages of 18 and 34. These figures
-            were expected to have an impact on election day, as witnessed during
-            the Endsars protest in 2020, when youths took to the streets to
-            demand the disbandment of the popular police unit, the Special
-            Anti-Robbery Squad, owing to incidents of extrajudicial executions,
-            extortion, and intimidation.
-          </p>
-        </div>
       </section>
       <section>
+        <div class="component-paragraph">
+          <p>
+            <span class="number-inline">3</span>
+            <strong> Southern states have a low level of interest.</strong> In the
+            just-concluded election, Rivers State recorded the lowest turnout among
+            36 states, including the FCT. All the states in the south-south and south-east
+            geopolitical zones were less than the national average of 26.7%.
+          </p>
+        </div>
         <div class="datawrapper-component">
           <div
             class="figure"
             bind:clientWidth={width}
             on:mouseleave={() => (hovered = null)}
           >
+            <h2 class="chart-dotplot-header">
+              2023 Voters Participation across all 36 States & FCT
+            </h2>
             <svg {width} {height}>
               <g
                 class="innerChart"
@@ -242,12 +265,19 @@
             {/if}
           </div>
         </div>
+      </section>
+      <section>
         <div class="component-paragraph">
           <p>
-            Southern states have a low level of interest. In the just-concluded
-            election, Rivers State recorded the lowest turnout among 36 states,
-            including the FCT. All the states in the south-south and south-east
-            geopolitical zones were less than the national average of 26.7%.
+            <span class="number-inline">4</span>
+            <strong>
+              Low voter participation in the southern and southern-eastern
+              states in the 2019 and 2023 general elections.</strong
+            > Bayelsa, Delta, and Rivers had above 60% participation in the 2015
+            general election, but the numbers have dropped dramatically, with both
+            Bayelsa and Rivers registering the lowest turnout in 2023. The same is
+            true in the southeast, which had low turnout in 2019 and 2023 compared
+            to the 2015 general election.
           </p>
         </div>
       </section>
@@ -294,31 +324,20 @@
           </div>
         </div>
       </div>
-      <section>
-        <div class="component-paragraph">
-          <p>
-            Low voter participation in the southern and southern-eastern states
-            in the 2019 and 2023 general elections. Bayelsa, Delta, and Rivers
-            had above 60% participation in the 2015 general election, but the
-            numbers have dropped dramatically, with both Bayelsa and Rivers
-            registering the lowest turnout in 2023. The same is true in the
-            southeast, which had low turnout in 2019 and 2023 compared to the
-            2015 general election.
-          </p>
-        </div>
-      </section>
 
       <section>
         <div class="component-paragraph">
           <p>
-            The voting participation in Lagos State has been persistently low.
-            In a surprising turn of events, Peter Obi secured the majority of
-            votes in Lagos in the just completed presidential election. Bola
-            Ahmed Tinubu, presidential-elect, two-term governor of the state,
-            and considered as the kingmaker, finished second in his home state.
-            However, the surprise from the outcome does not diminish the fact
-            that residents of Africa's largest economy have failed to
-            participate in elections at various times.
+            <span class="number-inline">5</span>
+            <strong>
+              The voting participation in Lagos State has been persistently low
+            </strong>. In a surprising turn of events, Peter Obi secured the
+            majority of votes in Lagos in the just completed presidential
+            election. Bola Ahmed Tinubu, presidential-elect, two-term governor
+            of the state, and considered as the kingmaker, finished second in
+            his home state. However, the surprise from the outcome does not
+            diminish the fact that residents of Africa's largest economy have
+            failed to participate in elections at various times.
           </p>
         </div>
       </section>
@@ -332,6 +351,23 @@
     padding: 1px;
     color: beige;
     margin-top: 5px;
+  }
+
+  .number-inline {
+    float: left;
+    margin-right: 1rem;
+    font-family: "Tinos";
+    font-weight: bold;
+    font-size: 3.5rem;
+    color: #2f4b00;
+  }
+
+  .text-inline {
+    padding: 3px;
+    color: #ffffff;
+    font-weight: bold;
+    display: inline-block;
+    border-radius: 3px;
   }
 
   .headline {
@@ -354,14 +390,15 @@
   }
 
   .container-max {
-    width: 90%;
+    width: 95%;
     max-width: 960px;
-    margin: 2px auto;
+    margin: 1px auto;
   }
 
   .component-paragraph h2 {
     font-weight: bold;
     margin-bottom: 2rem;
+    font-size: 1.2rem;
   }
 
   .headline-wrapper {
@@ -404,14 +441,22 @@
   }
 
   :global(.tick text) {
-    font-family: "Tinos";
+    font-family: "Lato";
     font-size: 14px;
-    font-weight: 400;
     fill: #808080;
   }
 
+  .chart-dotplot-header {
+    font-family: "Lato";
+    font-size: 1rem;
+    font-weight: 800;
+    fill: #808080;
+    text-align: center;
+    margin-bottom: 1.5rem;
+    line-height: 1.2;
+  }
   .text {
-    font-family: "Tinos";
+    font-family: "Lato";
     font-size: 14px;
     font-weight: 400;
     fill: #808080;
