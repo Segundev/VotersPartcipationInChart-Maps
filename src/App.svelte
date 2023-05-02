@@ -92,7 +92,7 @@
             The number of voters who participate in an election has a
             significant impact on the outcome. Several media outlets projected
             the outcome of the election on the basis of a large turnout.
-            However, only <span class="text-inline" style="background:#35751E">
+            However, only <span class="text-inline" style="background:#006d2c">
               24.9 million
             </span>
             voted out of
@@ -115,14 +115,14 @@
       <section>
         <div class="component-paragraph">
           <p>
-            <span class="number-inline">1</span>
+            <span class="number-inline">*</span>
             <strong>
               Voter turnout in the
-              <span class="text-inline" style="background:#35751E">2023</span>
+              <span class="text-inline" style="background:#006d2c">2023</span>
               presidential and national assembly elections was the lowest ever recorded
               since democracy was established in 1999</strong
             >. The participation rate recorded was
-            <span class="text-inline" style="background:#E05E00">
+            <span class="text-inline" style="background:#006d2c">
               26.74%
             </span>, implying that barely 3 out of every 10 registered voters
             exercised their voting rights on election day by casting their
@@ -149,7 +149,7 @@
       <section>
         <div class="component-paragraph">
           <p>
-            <span class="number-inline">2</span>
+            <span class="number-inline">*</span>
             <strong> Voter turnout has been declining since 2007.</strong> Even though
             the number of registered voters has increased throughout the years, participation
             rate has been declining. The 2023 election surprised many Nigerians,
@@ -179,100 +179,61 @@
       <section>
         <div class="component-paragraph">
           <p>
-            <span class="number-inline">3</span>
+            <span class="number-inline">*</span>
             <strong> Southern states have a low level of interest.</strong> In the
             just-concluded election, Rivers State recorded the lowest turnout among
             36 states, including the FCT. All the states in the south-south and south-east
             geopolitical zones were less than the national average of 26.7%.
           </p>
         </div>
-        <div class="datawrapper-component">
-          <div
-            class="figure"
-            bind:clientWidth={width}
-            on:mouseleave={() => (hovered = null)}
-          >
-            <h2 class="chart-dotplot-header">
-              2023 Voters Participation across all 36 States & FCT
-            </h2>
-            <svg {width} {height}>
-              <g
-                class="innerChart"
-                transform="translate({(margin.left, margin.top)})"
-              >
-                <!-- Circles Section -->
-                <g class="dot">
-                  {#each data.sort((a, b) => a[2023] - b[2023]) as d}
-                    {#if label.includes(d.State)}
-                      <text
-                        class="text"
-                        x={xScale(d[2023])}
-                        y={yScale(d.Zones)}
-                        dx="-20"
-                        dy="-10"
-                      >
-                        {d.State}</text
-                      >
-                    {/if}
-                    <circle
-                      cx={xScale(d[2023])}
-                      cy={yScale(d.Zones)}
-                      r={hovered === d ? RADIUS * 2 : RADIUS}
-                      fill={scaleColor(d.Zones)}
-                      opacity={hovered ? (hovered == d ? 0.8 : 0.4) : 0.7}
-                      stroke="#222222"
-                      stroke-width="1"
-                      on:mouseover={() => (hovered = d)}
-                    />
-                  {/each}
-                  <g
-                    on:mouseleave={() => (averageLine = false)}
-                    transform="translate({xScale(averageParticipationRate)},)"
-                  >
-                    <g
-                      class:active={averageLine}
-                      on:mouseover={() => (averageLine = true)}
-                    >
-                      <line
-                        class="average"
-                        x1={xScale(averageParticipationRate)}
-                        y1={margin.top - 10}
-                        x2={xScale(averageParticipationRate)}
-                        y2={innerHeight - margin.bottom - 10}
-                        stroke-width="2"
-                      />
-                      <text
-                        x={xScale(averageParticipationRate)}
-                        y={margin.top}
-                        class="text"
-                      >
-                        &rarr; National Average
-                      </text>
-                    </g>
-                  </g>
-                </g>
-
-                <!-- AxisY Section -->
-                <AxisY {innerWidth} {yScale} {region} {margin} />
-
-                <!-- AxisX Section -->
-                <AxisX {innerHeight} {xScale} />
-              </g>
-            </svg>
-
-            {#if hovered}
-              <Tooltip data={hovered} {xScale} {yScale} {innerWidth} />
-            {/if}
+        <div class="container-max">
+          <div class="datawrapper-flex">
+            <div class="datawrapper-map">
+              <iframe
+                title=""
+                aria-label="Map"
+                id="datawrapper-chart-zlOk0"
+                src="https://datawrapper.dwcdn.net/zlOk0/9/"
+                scrolling="no"
+                frameborder="0"
+                style="width: 0; min-width: 100% !important; border: none;"
+                height="553"
+                data-external="1"
+              />
+            </div>
+            <div class="datawrapper-map">
+              <iframe
+                title=""
+                aria-label="Map"
+                id="datawrapper-chart-w4o2Z"
+                src="https://datawrapper.dwcdn.net/w4o2Z/8/"
+                scrolling="no"
+                frameborder="0"
+                style="width: 0; min-width: 100% !important; border: none;"
+                height="553"
+                data-external="1"
+              />
+            </div>
+            <div class="datawrapper-map">
+              <iframe
+                title=""
+                aria-label="Map"
+                id="datawrapper-chart-jtgiW"
+                src="https://datawrapper.dwcdn.net/jtgiW/8/"
+                scrolling="no"
+                frameborder="0"
+                style="width: 0; min-width: 100% !important; border: none;"
+                height="553"
+                data-external="1"
+              />
+            </div>
           </div>
         </div>
-      </section>
-      <section>
         <div class="component-paragraph">
           <p>
-            <span class="number-inline">4</span>
             <strong>
-              Low voter participation in the southern and southern-eastern
-              states in the 2019 and 2023 general elections.</strong
+              Voter's participation in the southern and southern-eastern states
+              have been low in the last two general elections.</strong
             > Bayelsa, Delta, and Rivers had above 60% participation in the 2015
             general election, but the numbers have dropped dramatically, with both
             Bayelsa and Rivers registering the lowest turnout in 2023. The same is
@@ -281,56 +242,93 @@
           </p>
         </div>
       </section>
-      <div class="container-max">
-        <div class="datawrapper-flex">
-          <div class="datawrapper-map">
-            <iframe
-              title=""
-              aria-label="Map"
-              id="datawrapper-chart-zlOk0"
-              src="https://datawrapper.dwcdn.net/zlOk0/9/"
-              scrolling="no"
-              frameborder="0"
-              style="width: 0; min-width: 100% !important; border: none;"
-              height="553"
-              data-external="1"
-            />
-          </div>
-          <div class="datawrapper-map">
-            <iframe
-              title=""
-              aria-label="Map"
-              id="datawrapper-chart-w4o2Z"
-              src="https://datawrapper.dwcdn.net/w4o2Z/8/"
-              scrolling="no"
-              frameborder="0"
-              style="width: 0; min-width: 100% !important; border: none;"
-              height="553"
-              data-external="1"
-            />
-          </div>
-          <div class="datawrapper-map">
-            <iframe
-              title=""
-              aria-label="Map"
-              id="datawrapper-chart-jtgiW"
-              src="https://datawrapper.dwcdn.net/jtgiW/8/"
-              scrolling="no"
-              frameborder="0"
-              style="width: 0; min-width: 100% !important; border: none;"
-              height="553"
-              data-external="1"
-            />
-          </div>
+
+      <div class="datawrapper-component">
+        <div
+          class="figure"
+          bind:clientWidth={width}
+          on:mouseleave={() => (hovered = null)}
+        >
+          <h2 class="chart-dotplot-header">
+            2023 Voters Participation across all 36 States & FCT
+          </h2>
+          <svg {width} {height}>
+            <g
+              class="innerChart"
+              transform="translate({(margin.left, margin.top)})"
+            >
+              <!-- Circles Section -->
+              <g class="dot">
+                {#each data.sort((a, b) => a[2023] - b[2023]) as d}
+                  {#if label.includes(d.State)}
+                    <text
+                      class="text"
+                      x={xScale(d[2023])}
+                      y={yScale(d.Zones)}
+                      dx="-20"
+                      dy="-10"
+                    >
+                      {d.State}</text
+                    >
+                  {/if}
+                  <circle
+                    cx={xScale(d[2023])}
+                    cy={yScale(d.Zones)}
+                    r={hovered === d ? RADIUS * 2 : RADIUS}
+                    fill={scaleColor(d.Zones)}
+                    opacity={hovered ? (hovered == d ? 0.8 : 0.4) : 0.7}
+                    stroke="#222222"
+                    stroke-width="1"
+                    on:mouseover={() => (hovered = d)}
+                  />
+                {/each}
+                <g
+                  on:mouseleave={() => (averageLine = false)}
+                  transform="translate({xScale(averageParticipationRate)},)"
+                >
+                  <g
+                    class:active={averageLine}
+                    on:mouseover={() => (averageLine = true)}
+                  >
+                    <line
+                      class="average"
+                      x1={xScale(averageParticipationRate)}
+                      y1={margin.top - 10}
+                      x2={xScale(averageParticipationRate)}
+                      y2={innerHeight - margin.bottom - 10}
+                      stroke-width="2"
+                    />
+                    <text
+                      x={xScale(averageParticipationRate)}
+                      y={margin.top}
+                      class="text"
+                    >
+                      &rarr; National Average
+                    </text>
+                  </g>
+                </g>
+              </g>
+
+              <!-- AxisY Section -->
+              <AxisY {innerWidth} {yScale} {region} {margin} />
+
+              <!-- AxisX Section -->
+              <AxisX {innerHeight} {xScale} />
+            </g>
+          </svg>
+
+          {#if hovered}
+            <Tooltip data={hovered} {xScale} {yScale} {innerWidth} />
+          {/if}
         </div>
       </div>
-
       <section>
         <div class="component-paragraph">
           <p>
-            <span class="number-inline">5</span>
+            <span class="number-inline">*</span>
             <strong>
-              The voting participation in Lagos State has been persistently low
+              Lagos State with the highest number of registered voters has
+              performed woefully over the years
             </strong>. In a surprising turn of events, Peter Obi secured the
             majority of votes in Lagos in the just completed presidential
             election. Bola Ahmed Tinubu, presidential-elect, two-term governor
@@ -340,6 +338,31 @@
             failed to participate in elections at various times.
           </p>
         </div>
+        <div class="datawrapper-component">
+          <iframe
+            title="The states with the lowest literacy rate recorded the highest voter turnout."
+            aria-label="Scatter Plot"
+            id="datawrapper-chart-cyWPD"
+            src="https://datawrapper.dwcdn.net/cyWPD/3/"
+            scrolling="no"
+            frameborder="0"
+            style="width: 0; min-width: 100% !important; border: none;"
+            height="600"
+            data-external="1"
+          />
+        </div>
+        <div class="component-paragraph">
+          <p>
+            Moreso, states with high numbers of educated citizens have failed to
+            turn up during the election period. In the last election, Jigawa
+            State, with the least educated population in the nation, recorded
+            the highest turnout rate. One of the reasons for this that has been
+            consistent during the election period is underage voting. At various
+            times, it has been documented that children who are below the voting
+            age of 18 possess the permanent voter card and are also seen voting
+            on election day.
+          </p>
+        </div>
       </section>
     </article>
   </main>
@@ -347,7 +370,7 @@
 
 <style>
   .headline-inline-background {
-    background: #2cb427;
+    background: #006d2c;
     padding: 1px;
     color: beige;
     margin-top: 5px;
@@ -399,6 +422,7 @@
     font-weight: bold;
     margin-bottom: 2rem;
     font-size: 1.2rem;
+    text-decoration: underline;
   }
 
   .headline-wrapper {
@@ -463,6 +487,7 @@
   }
 
   .figure {
+    display: none;
     position: relative;
   }
 
