@@ -329,13 +329,15 @@
             <strong>
               Lagos State with the highest number of registered voters has
               performed woefully over the years
-            </strong>. In a surprising turn of events, Peter Obi secured the
-            majority of votes in Lagos in the just completed presidential
-            election. Bola Ahmed Tinubu, presidential-elect, two-term governor
-            of the state, and considered as the kingmaker, finished second in
-            his home state. However, the surprise from the outcome does not
-            diminish the fact that residents of Africa's largest economy have
-            failed to participate in elections at various times.
+            </strong>. Amidst incidences of voter suppression, intimidation, and
+            violence, results from Lagos State had a surprising turn of events.
+            Peter Obi secured the majority of votes in Lagos in the just
+            completed presidential election. Bola Ahmed Tinubu,
+            presidential-elect, two-term governor of the state, and considered
+            as the kingmaker, finished second in his home state. However, the
+            surprise from the outcome does not diminish the fact that residents
+            of Africa's largest economy have failed to participate in elections
+            at various times.
           </p>
         </div>
         <div class="datawrapper-component">
@@ -353,14 +355,42 @@
         </div>
         <div class="component-paragraph">
           <p>
-            Moreso, states with high numbers of educated citizens have failed to
-            turn up during the election period. In the last election, Jigawa
-            State, with the least educated population in the nation, recorded
-            the highest turnout rate. One of the reasons for this that has been
-            consistent during the election period is underage voting. At various
-            times, it has been documented that children who are below the voting
-            age of 18 possess the permanent voter card and are also seen voting
-            on election day.
+            Lagos State has the highest number of registered voters. likewise
+            the former British colony and nation's capital has the highest and
+            most educated populace in the country. This, however, has had little
+            effect on voters turnout. Moreso, some of the states with high
+            numbers of educated citizens have failed to turn up during the
+            election period. Reverse is the case in less educated states. In the
+            last election, Jigawa State, with the least educated population in
+            the nation, recorded the highest turnout rate. One of the reasons
+            for this, and also has been consistent during election period is
+            underage voting. At various times, it has been documented that
+            children who are below the voting age of 18 owns the permanent voter
+            card(PVC) and are also seen voting on election day.
+          </p>
+        </div>
+        <div class="component-paragraph">
+          <p>
+            As earlier highlighted, one of the reasons for high voter turn out
+            in previous elections was under age voting. But this could happen
+            frequently when voters registration was done manually. Before INEC
+            decided to go digital in 2007, cases of multiple registers and over
+            voting was rampant.
+          </p>
+          <p>
+            The introduction of Card readers in 2015 reduced some of the
+            loopholes. But individuals could still by pass the system. In 2021,
+            INEC introduced the Bimodal Voter Accreditation System to improve
+            the election architecture. PVC authentication and Voter
+            accreditation, electoral officers could easily detect and
+            malpractise in place.
+          </p>
+          <p>
+            Another factor affecting low voters turnout is the uncertainty in
+            the true number of Registered voters. With the high rate of
+            Nigerians migrating to the west and also individuals who have passed
+            away in the last couple of years, the present number of registered
+            voters does not reflect the genuine picture.
           </p>
         </div>
       </section>
