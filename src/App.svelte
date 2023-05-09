@@ -403,7 +403,7 @@
     background: #006d2c;
     padding: 1px;
     color: beige;
-    margin-top: 4.9px;
+    margin-top: 5px;
   }
 
   .number-inline {
