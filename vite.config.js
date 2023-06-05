@@ -11,7 +11,6 @@ export default defineConfig({
       $components: path.resolve("./src/components"),
       $data: path.resolve("./src/data"),
       $routes: path.resolve("./src/routes"),
-      $images: path.resolve("./src/images"),
     },
   },
 });
