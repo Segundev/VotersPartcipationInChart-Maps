@@ -423,7 +423,7 @@
             Bureau of Statistics.
           </p>
           <p class="footnote-p">
-            <span class="footnote-intro"> Edited and Mentored by:</span> Can Kiyali
+            <span class="footnote-intro"> Edited and Mentored by:</span> Can Kayali
           </p>
         </div>
       </section>
