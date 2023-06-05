@@ -77,7 +77,7 @@
   <main>
     <header class="main-headline">
       <div class="headline-wrapper">
-        <img src="src/image/ballot.PNG" alt="header image" />
+        <img src="src/ballot.PNG" alt="header image" />
         <h1 class="headline">
           Using charts and maps, how did <br /><span
             class="headline-inline-background">Nigerian voters turn out?</span
@@ -136,7 +136,7 @@
         </div>
         <div class="slopechart">
           <img
-            src="src/image/slopechart.PNG"
+            src="src/slopechart.PNG"
             alt="graphic showing registered voters vs total votes since 2003"
           />
         </div>
