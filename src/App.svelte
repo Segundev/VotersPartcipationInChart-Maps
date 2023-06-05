@@ -77,12 +77,13 @@
   <main>
     <header class="main-headline">
       <div class="headline-wrapper">
+        <img src="src/image/ballot.png" alt="header image" />
         <h1 class="headline">
           Using charts and maps, how did <br /><span
             class="headline-inline-background">Nigerian voters turn out?</span
           >
-          <p>By Jayeola Gbenga</p>
         </h1>
+        <p>By Jayeola Gbenga</p>
       </div>
     </header>
     <article>
@@ -123,7 +124,9 @@
               since democracy was established in 1999</strong
             >. The participation rate recorded was
             <span class="text-inline" style="background:#006d2c">
-              26.74%
+              <a href="https://www.idea.int/data-tools/country-view/231/40">
+                26.74%</a
+              >
             </span>, implying that barely 3 out of every 10 registered voters
             exercised their voting rights on election day by casting their
             votes. Between 1999 and 2011, voter participation on average was
@@ -131,7 +134,14 @@
             to cast their votes.
           </p>
         </div>
-        <div class="datawrapper-component">
+        <div class="slopechart">
+          <img
+            src="src/image/slopechart.png"
+            alt="graphic showing registered voters vs total votes since 2003"
+          />
+        </div>
+
+        <!--
           <iframe
             title=""
             aria-label="Interactive line chart"
@@ -142,24 +152,26 @@
             style="width: 0; min-width: 100% !important; border: none;"
             height="400"
             data-external="1"
-          />
-        </div>
+          />   -->
       </section>
 
       <section>
         <div class="component-paragraph">
           <p>
             <span class="number-inline">*</span>
-            <strong> Voter turnout has been declining since 2007.</strong> Even though
-            the number of registered voters has increased throughout the years, participation
-            rate has been declining. The 2023 election surprised many Nigerians,
-            who expected a huge voter participation due to the country's economic
-            woes prior to the election. In addition, 40% of registered voters were
-            between the ages of 18 and 34. These figures were expected to have an
-            impact on election day, as witnessed during the Endsars protest in 2020,
-            when youths took to the streets to demand the disbandment of the popular
-            police unit, the Special Anti-Robbery Squad, owing to incidents of extrajudicial
-            executions, extortion, and intimidation.
+            <strong> Voter turnout has been declining since 2007.</strong> Even
+            though the number of registered voters has increased throughout the
+            years, participation rate has been declining. The 2023 election
+            surprised many Nigerians, who expected a huge voter participation
+            due to the country's economic woes prior to the election. In
+            addition, 40% of registered voters were between the ages of 18 and
+            34. These figures were expected to have an impact on election day,
+            as witnessed during the
+            <a href="https://en.wikipedia.org/wiki/End_SARS">
+              Endsars protest
+            </a> in 2020, when youths took to the streets to demand the disbandment
+            of the popular police unit, the Special Anti-Robbery Squad, owing to
+            incidents of extrajudicial executions, extortion, and intimidation.
           </p>
         </div>
         <div class="datawrapper-component">
@@ -329,15 +341,16 @@
             <strong>
               Lagos State with the highest number of registered voters has
               performed woefully over the years
-            </strong>. Amidst incidences of voter suppression, intimidation, and
-            violence, results from Lagos State had a surprising turn of events.
-            Peter Obi secured the majority of votes in Lagos in the just
-            completed presidential election. Bola Ahmed Tinubu,
-            presidential-elect, two-term governor of the state, and considered
-            as the kingmaker, finished second in his home state. However, the
-            surprise from the outcome does not diminish the fact that residents
-            of Africa's largest economy have failed to participate in elections
-            at various times.
+            </strong>. Amidst incidences of
+            <a href="https://ng.usembassy.gov/nigerias-2023-elections/">
+              voter suppression, intimidation, and violence</a
+            > results from Lagos State had a surprising turn of events. Peter Obi
+            secured the majority of votes in Lagos in the just completed presidential
+            election. President Bola Ahmed Tinubu, president-elect, two-term governor
+            of the state, and considered as the kingmaker, finished second in his
+            home state. However, the surprise from the outcome does not diminish
+            the fact that residents of Africa's largest economy have failed to participate
+            in elections at various times.
           </p>
         </div>
         <div class="datawrapper-component">
@@ -355,42 +368,62 @@
         </div>
         <div class="component-paragraph">
           <p>
-            Lagos State has the highest number of registered voters. likewise
+            Lagos State has the highest number of registered voters. Likewise,
             the former British colony and nation's capital has the highest and
             most educated populace in the country. This, however, has had little
             effect on voters turnout. Moreso, some of the states with high
             numbers of educated citizens have failed to turn up during the
             election period. Reverse is the case in less educated states. In the
             last election, Jigawa State, with the least educated population in
-            the nation, recorded the highest turnout rate. One of the reasons
-            for this, and also has been consistent during election period is
-            underage voting. At various times, it has been documented that
-            children who are below the voting age of 18 owns the permanent voter
-            card(PVC) and are also seen voting on election day.
+            the nation, recorded the highest turnout rate.
           </p>
         </div>
         <div class="component-paragraph">
           <p>
-            As earlier highlighted, one of the reasons for high voter turn out
-            in previous elections was under age voting. But this could happen
-            frequently when voters registration was done manually. Before INEC
-            decided to go digital in 2007, cases of multiple registers and over
-            voting was rampant.
-          </p>
-          <p>
-            The introduction of Card readers in 2015 reduced some of the
+            Election in Nigeria has always been entangled with violence and
+            fraud. The introduction of Card readers in 2015 reduced some of the
             loopholes. But individuals could still by pass the system. In 2021,
             INEC introduced the Bimodal Voter Accreditation System to improve
             the election architecture. PVC authentication and Voter
             accreditation, electoral officers could easily detect and
-            malpractise in place.
+            malpractise in place. Insurgency in the North and the lingering
+            sit-at-home by IPOB resulted in low voters turnout in Northern and
+            South eastern part of Nigeria.
           </p>
           <p>
             Another factor affecting low voters turnout is the uncertainty in
             the true number of Registered voters. With the high rate of
             Nigerians migrating to the west and also individuals who have passed
             away in the last couple of years, the present number of registered
-            voters does not reflect the genuine picture.
+            voters does not reflect the genuine picture. Again, the data often
+            released by INEC do not contain certain level of details like
+            gender, occupation, age and education level that should help gain
+            insight to the continuous decline in voters participation.
+          </p>
+        </div>
+        <div class="component-paragraph">
+          <p>
+            As earlier mentioned in the beginning of the article, voter turnout
+            has a significant impact on the outcome of an election. President
+            Bola Ahmed Tinubu won the election with 36 percent of total votes,
+            the lowest when compared to other elections. Opposing parties are in
+            court trying to regain their mandate, but the dynamics would have
+            been different if more Nigerians had come out to vote on the 25th of
+            February, 2023.
+          </p>
+        </div>
+        <div class="footnote-paragraph">
+          <p class="footnote-p">
+            <span class="footnote-intro"> Note: </span> The story serves as a capstone
+            project under the Data Visualization Society mentorship program.
+          </p>
+          <p class="footnote-p">
+            <span class="footnote-intro">Data Source: </span> Independent National
+            Electoral Commission, Dataphyte, Wikipedia, International IDEA, National
+            Bureau of Statistics.
+          </p>
+          <p class="footnote-p">
+            <span class="footnote-intro"> Edited and Mentored by:</span> Can Kiyali
           </p>
         </div>
       </section>
@@ -423,11 +456,19 @@
     border-radius: 3px;
   }
 
+  .text-inline a {
+    color: #ffffff;
+  }
+
+  a {
+    color: #141414;
+  }
+
   .headline {
-    padding: 1.5rem;
+    padding-top: 1.5rem;
     font-family: "Tinos";
     font-weight: bold;
-    font-size: 2.5rem;
+    font-size: 6.5vmin;
     text-align: center;
     line-height: 1.2;
     color: #141414;
@@ -435,11 +476,16 @@
 
   .headline-wrapper p {
     font-size: 1rem;
-    font-weight: 300;
+    font-weight: 700;
     text-align: center;
     line-height: 1.2;
     color: #686868;
-    margin: 2rem 0;
+  }
+
+  .headline-wrapper img {
+    width: 50%;
+    height: 50%;
+    text-align: center;
   }
 
   .container-max {
@@ -452,16 +498,18 @@
     font-weight: bold;
     margin-bottom: 2rem;
     font-size: 1.2rem;
-    text-decoration: underline;
   }
 
   .headline-wrapper {
     display: flex;
     justify-content: center;
+    align-items: center;
     max-width: 760px;
     width: 100%;
     margin: 0 auto;
-    padding-top: 7rem;
+    padding-top: 0;
+    padding-bottom: 2.5rem;
+    flex-direction: column;
   }
 
   .component-paragraph {
@@ -475,8 +523,31 @@
     color: #313131;
   }
 
+  .footnote-paragraph {
+    width: 90%;
+    max-width: 550px;
+    margin: 4rem auto;
+  }
+
   .component-paragraph p {
     margin-bottom: 2.5rem;
+  }
+
+  .footnote-p {
+    font-family: "Tinos";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #313131;
+    margin-bottom: 1rem;
+  }
+
+  .footnote-intro {
+    font-weight: bold;
+  }
+
+  .slopechart {
+    text-align: center;
   }
 
   .datawrapper-component {
