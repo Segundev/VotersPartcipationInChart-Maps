@@ -52,7 +52,14 @@
 
   let scaleColor = scaleOrdinal()
     .domain(region)
-    .range(["#4e79a7", "#e15759", "#f28e2b", "#edc948", "#76b7b2", "#59a14f"]);
+    .range([
+      "#4e79a7",
+      "#e15759",
+      "#f28e2b",
+      "#edc948",
+      "#76b7b2",
+      "#59a14f",
+    ]);
 
   let hovered;
   let averageLine;
@@ -80,7 +87,8 @@
         <img src="./images/ballot.PNG" alt="header image" />
         <h1 class="headline">
           Using charts and maps, how did <br /><span
-            class="headline-inline-background">Nigerian voters turn out?</span
+            class="headline-inline-background"
+            >Nigerian voters turn out?</span
           >
         </h1>
         <p>By Jayeola Gbenga</p>
@@ -91,25 +99,28 @@
         <div class="component-paragraph">
           <p>
             The number of voters who participate in an election has a
-            significant impact on the outcome. Several media outlets projected
-            the outcome of the election on the basis of a large turnout.
-            However, only <span class="text-inline" style="background:#006d2c">
+            significant impact on the outcome. Several media outlets
+            projected the outcome of the election on the basis of a
+            large turnout. However, only <span
+              class="text-inline"
+              style="background:#006d2c"
+            >
               24.9 million
             </span>
             voted out of
-            <span class="text-inline" style="background:#033160">
+            <span class="text-inline" style="background:red">
               93.47 million
-            </span> registered voters. In simpler words, approximately only 3 out
-            of 10 registered voters were able to cast their vote. This compared to
-            7 out of 10 in 2003.
+            </span> registered voters. In simpler words, approximately
+            only 3 out of 10 registered voters were able to cast their
+            vote. This compared to 7 out of 10 in 2003.
           </p>
         </div>
       </section>
       <section>
         <div class="subtitle-wrapper component-paragraph">
           <h2 class="subtitle-headline">
-            The graphics below highlight significant facts concerning trends in
-            voter turnout in Nigeria.
+            The graphics below highlight significant facts concerning
+            trends in voter turnout in Nigeria.
           </h2>
         </div>
       </section>
@@ -119,19 +130,24 @@
             <span class="number-inline">*</span>
             <strong>
               Voter turnout in the
-              <span class="text-inline" style="background:#006d2c">2023</span>
-              presidential and national assembly elections was the lowest ever recorded
-              since democracy was established in 1999</strong
+              <span class="text-inline" style="background:#006d2c"
+                >2023</span
+              >
+              presidential and national assembly elections was the lowest
+              ever recorded since democracy was established in 1999</strong
             >. The participation rate recorded was
             <span class="text-inline" style="background:#006d2c">
-              <a href="https://www.idea.int/data-tools/country-view/231/40">
+              <a
+                href="https://www.idea.int/data-tools/country-view/231/40"
+              >
                 26.74%</a
               >
-            </span>, implying that barely 3 out of every 10 registered voters
-            exercised their voting rights on election day by casting their
-            votes. Between 1999 and 2011, voter participation on average was
-            greater than 50%, with more than 5 out of 10 registered voters eager
-            to cast their votes.
+            </span>, implying that barely 3 out of every 10 registered
+            voters exercised their voting rights on election day by
+            casting their votes. Between 1999 and 2011, voter
+            participation on average was greater than 50%, with more
+            than 5 out of 10 registered voters eager to cast their
+            votes.
           </p>
         </div>
         <div class="slopechart">
@@ -159,19 +175,23 @@
         <div class="component-paragraph">
           <p>
             <span class="number-inline">*</span>
-            <strong> Voter turnout has been declining since 2007.</strong> Even
-            though the number of registered voters has increased throughout the
-            years, participation rate has been declining. The 2023 election
-            surprised many Nigerians, who expected a huge voter participation
-            due to the country's economic woes prior to the election. In
-            addition, 40% of registered voters were between the ages of 18 and
-            34. These figures were expected to have an impact on election day,
-            as witnessed during the
+            <strong>
+              Voter turnout has been declining since 2007.</strong
+            >
+            Even though the number of registered voters has increased
+            throughout the years, participation rate has been
+            declining. The 2023 election surprised many Nigerians, who
+            expected a huge voter participation due to the country's
+            economic woes prior to the election. In addition, 40% of
+            registered voters were between the ages of 18 and 34.
+            These figures were expected to have an impact on election
+            day, as witnessed during the
             <a href="https://en.wikipedia.org/wiki/End_SARS">
               Endsars protest
-            </a> in 2020, when youths took to the streets to demand the disbandment
-            of the popular police unit, the Special Anti-Robbery Squad, owing to
-            incidents of extrajudicial executions, extortion, and intimidation.
+            </a> in 2020, when youths took to the streets to demand the
+            disbandment of the popular police unit, the Special Anti-Robbery
+            Squad, owing to incidents of extrajudicial executions, extortion,
+            and intimidation.
           </p>
         </div>
         <div class="datawrapper-component">
@@ -192,10 +212,12 @@
         <div class="component-paragraph">
           <p>
             <span class="number-inline">*</span>
-            <strong> Southern states have a low level of interest.</strong> In the
-            just-concluded election, Rivers State recorded the lowest turnout among
-            36 states, including the FCT. All the states in the south-south and south-east
-            geopolitical zones were less than the national average of 26.7%.
+            <strong>
+              Southern states have a low level of interest.</strong
+            > In the just-concluded election, Rivers State recorded the
+            lowest turnout among 36 states, including the FCT. All the
+            states in the south-south and south-east geopolitical zones
+            were less than the national average of 26.7%.
           </p>
         </div>
         <div class="container-max">
@@ -244,13 +266,14 @@
         <div class="component-paragraph">
           <p>
             <strong>
-              Voter's participation in the southern and southern-eastern states
-              have been low in the last two general elections.</strong
-            > Bayelsa, Delta, and Rivers had above 60% participation in the 2015
-            general election, but the numbers have dropped dramatically, with both
-            Bayelsa and Rivers registering the lowest turnout in 2023. The same is
-            true in the southeast, which had low turnout in 2019 and 2023 compared
-            to the 2015 general election.
+              Voter's participation in the southern and
+              southern-eastern states have been low in the last two
+              general elections.</strong
+            > Bayelsa, Delta, and Rivers had above 60% participation in
+            the 2015 general election, but the numbers have dropped dramatically,
+            with both Bayelsa and Rivers registering the lowest turnout
+            in 2023. The same is true in the southeast, which had low turnout
+            in 2019 and 2023 compared to the 2015 general election.
           </p>
         </div>
       </section>
@@ -288,7 +311,11 @@
                     cy={yScale(d.Zones)}
                     r={hovered === d ? RADIUS * 2 : RADIUS}
                     fill={scaleColor(d.Zones)}
-                    opacity={hovered ? (hovered == d ? 0.8 : 0.4) : 0.7}
+                    opacity={hovered
+                      ? hovered == d
+                        ? 0.8
+                        : 0.4
+                      : 0.7}
                     stroke="#222222"
                     stroke-width="1"
                     on:mouseover={() => (hovered = d)}
@@ -296,7 +323,9 @@
                 {/each}
                 <g
                   on:mouseleave={() => (averageLine = false)}
-                  transform="translate({xScale(averageParticipationRate)},)"
+                  transform="translate({xScale(
+                    averageParticipationRate
+                  )},)"
                 >
                   <g
                     class:active={averageLine}
@@ -339,17 +368,20 @@
           <p>
             <span class="number-inline">*</span>
             <strong>
-              Lagos State with the highest number of registered voters has
-              performed woefully over the years
+              Lagos State with the highest number of registered voters
+              has performed woefully over the years
             </strong>. Amidst incidences of
-            <a href="https://ng.usembassy.gov/nigerias-2023-elections/">
+            <a
+              href="https://ng.usembassy.gov/nigerias-2023-elections/"
+            >
               voter suppression, intimidation, and violence</a
-            > results from Lagos State had a surprising turn of events. Peter Obi
-            secured the majority of votes in Lagos in the just completed presidential
-            election. President Bola Ahmed Tinubu, president-elect, two-term governor
-            of the state, and considered as the kingmaker, finished second in his
-            home state. However, the surprise from the outcome does not diminish
-            the fact that residents of Africa's largest economy have failed to participate
+            > results from Lagos State had a surprising turn of events.
+            Peter Obi secured the majority of votes in Lagos in the just
+            completed presidential election. President Bola Ahmed Tinubu,
+            president-elect, two-term governor of the state, and considered
+            as the kingmaker, finished second in his home state. However,
+            the surprise from the outcome does not diminish the fact that
+            residents of Africa's largest economy have failed to participate
             in elections at various times.
           </p>
         </div>
@@ -368,62 +400,71 @@
         </div>
         <div class="component-paragraph">
           <p>
-            Lagos State has the highest number of registered voters. Likewise,
-            the former British colony and nation's capital has the highest and
-            most educated populace in the country. This, however, has had little
-            effect on voters turnout. Moreso, some of the states with high
-            numbers of educated citizens have failed to turn up during the
-            election period. Reverse is the case in less educated states. In the
-            last election, Jigawa State, with the least educated population in
-            the nation, recorded the highest turnout rate.
+            Lagos State has the highest number of registered voters.
+            Likewise, the former British colony and nation's capital
+            has the highest and most educated populace in the country.
+            This, however, has had little effect on voters turnout.
+            Moreso, some of the states with high numbers of educated
+            citizens have failed to turn up during the election
+            period. Reverse is the case in less educated states. In
+            the last election, Jigawa State, with the least educated
+            population in the nation, recorded the highest turnout
+            rate.
           </p>
         </div>
         <div class="component-paragraph">
           <p>
-            Election in Nigeria has always been entangled with violence and
-            fraud. The introduction of Card readers in 2015 reduced some of the
-            loopholes. But individuals could still by pass the system. In 2021,
-            INEC introduced the Bimodal Voter Accreditation System to improve
-            the election architecture. PVC authentication and Voter
-            accreditation, electoral officers could easily detect and
-            malpractise in place. Insurgency in the North and the lingering
-            sit-at-home by IPOB resulted in low voters turnout in Northern and
-            South eastern part of Nigeria.
+            Election in Nigeria has always been entangled with
+            violence and fraud. The introduction of Card readers in
+            2015 reduced some of the loopholes. But individuals could
+            still by pass the system. In 2021, INEC introduced the
+            Bimodal Voter Accreditation System to improve the election
+            architecture. PVC authentication and Voter accreditation,
+            electoral officers could easily detect and malpractise in
+            place. Insurgency in the North and the lingering
+            sit-at-home by IPOB resulted in low voters turnout in
+            Northern and South eastern part of Nigeria.
           </p>
           <p>
-            Another factor affecting low voters turnout is the uncertainty in
-            the true number of Registered voters. With the high rate of
-            Nigerians migrating to the west and also individuals who have passed
-            away in the last couple of years, the present number of registered
-            voters does not reflect the genuine picture. Again, the data often
-            released by INEC do not contain certain level of details like
-            gender, occupation, age and education level that should help gain
-            insight to the continuous decline in voters participation.
+            Another factor affecting low voters turnout is the
+            uncertainty in the true number of Registered voters. With
+            the high rate of Nigerians migrating to the west and also
+            individuals who have passed away in the last couple of
+            years, the present number of registered voters does not
+            reflect the genuine picture. Again, the data often
+            released by INEC do not contain certain level of details
+            like gender, occupation, age and education level that
+            should help gain insight to the continuous decline in
+            voters participation.
           </p>
         </div>
         <div class="component-paragraph">
           <p>
-            As earlier mentioned in the beginning of the article, voter turnout
-            has a significant impact on the outcome of an election. President
-            Bola Ahmed Tinubu won the election with 36 percent of total votes,
-            the lowest when compared to other elections. Opposing parties are in
-            court trying to regain their mandate, but the dynamics would have
-            been different if more Nigerians had come out to vote on the 25th of
-            February, 2023.
+            As earlier mentioned in the beginning of the article,
+            voter turnout has a significant impact on the outcome of
+            an election. President Bola Ahmed Tinubu won the election
+            with 36 percent of total votes, the lowest when compared
+            to other elections. Opposing parties are in court trying
+            to regain their mandate, but the dynamics would have been
+            different if more Nigerians had come out to vote on the
+            25th of February, 2023.
           </p>
         </div>
         <div class="footnote-paragraph">
           <p class="footnote-p">
-            <span class="footnote-intro"> Note: </span> The story serves as a capstone
-            project under the Data Visualization Society mentorship program.
+            <span class="footnote-intro"> Note: </span> The story serves
+            as a capstone project under the Data Visualization Society
+            mentorship program.
           </p>
           <p class="footnote-p">
-            <span class="footnote-intro">Data Source: </span> Independent National
-            Electoral Commission, Dataphyte, Wikipedia, International IDEA, National
-            Bureau of Statistics.
+            <span class="footnote-intro">Data Source: </span> Independent
+            National Electoral Commission, Dataphyte, Wikipedia, International
+            IDEA, National Bureau of Statistics.
           </p>
           <p class="footnote-p">
-            <span class="footnote-intro"> Edited and Mentored by:</span> Can Kayali
+            <span class="footnote-intro">
+              Edited and Mentored by:</span
+            > Can Kayali
           </p>
         </div>
       </section>
